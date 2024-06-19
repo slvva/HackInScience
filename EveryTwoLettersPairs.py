@@ -4,7 +4,7 @@ alphabet=string.ascii_lowercase
 
 x=y=0
 
-for l in range(len(alphabet)**2):
+for _ in range(len(alphabet)**2):
  
     if y<len(alphabet)-1:
         print(alphabet[x]+alphabet[y])
