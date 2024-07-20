@@ -17,7 +17,6 @@ def love_meet(bob, alice):
     alice = set(alice)
     bob = set(bob)
     ab = alice.intersection(bob)
-
     return ab
 
 
